@@ -1,0 +1,37 @@
+body {
+  font-family: "Cabin Sketch", "Blaka Hollow", "Tapestry", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navMenu {
+  background-color: #423e3b;
+  height: 100px
+}
+
+.nav-link {
+  color: #fea82f;
+}
+
+.nav-title {
+  color: #ff2e00;
+}
+
+img {
+  max-width: 25%;
+  max-height: 25%;
+}
+
+footer {
+  background-color: #5448C8;
+}
+
+
+
+@media all and (min-width: 600px) {
+  .navMenu {
+    height: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
