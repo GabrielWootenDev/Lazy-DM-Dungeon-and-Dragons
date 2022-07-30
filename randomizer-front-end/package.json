@@ -12,6 +12,11 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GabrielWootenDev/Lazy-DM-Dungeon-and-Dragons.git",
+    "directory": "/front-end"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
