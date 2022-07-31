@@ -1,0 +1,15 @@
+  const [monsters, setMonsters] = useState([]);
+
+  useEffect(() => {
+    const loadMonsters = async () => {
+      const abortController = new AbortController();
+      const results = await listMonsters(abortController.signal);
+      setMonsters(() => [...results]);
+      return abortController.abort();
+    };
+    try {
+      loadMonsters();
+    } catch (error) {
+      if (error.name !== "AbortError") console.log(error);
+    }
+  }, []);

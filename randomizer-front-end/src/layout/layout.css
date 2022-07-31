@@ -1,9 +1,6 @@
-body {
-  font-family: "Cabin Sketch", "Blaka Hollow", "Tapestry", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .navMenu {
   background-color: #423e3b;
-  height: 100px
+  height: 100px;
 }
 
 .nav-link {
@@ -21,13 +18,15 @@ img {
 
 footer {
   background-color: #5448C8;
+  max-height: 20px;
+  text-align: right;
 }
-
 
 
 @media all and (min-width: 600px) {
   .navMenu {
     height: 100%;
+    max-width: 300px;
   }
 
   img {

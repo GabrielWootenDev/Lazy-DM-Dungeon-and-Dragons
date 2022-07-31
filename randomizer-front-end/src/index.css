@@ -1,3 +1,24 @@
 body {
-    background-color: #FFFECB;
+  font-family: "Cabin Sketch", "Blaka Hollow", "Tapestry",
+    "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #fffecb;
 }
+
+h3 {
+  font-family: "Tapestry";
+}
+
+.icon-link {
+  color: #ff2e00;
+}
+
+/*
+This code doesn't work, bootstrap overtakes it
+need to find a fix
+
+@media all and (min-width: 1900px) {
+  .iconDiv {
+    column-span: 2;
+  }
+}
+*/
